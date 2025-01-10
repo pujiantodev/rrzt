@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router';
-import Home from './page/Home';
-import About from './page/About';
-import NotFound from './page/NotFound';
-import Login from './page/auth/Login';
+import Home from './pages/Home';
+import About from './pages/About';
+import NotFound from './pages/NotFound';
+import Login from './pages/auth/Login';
 import Authenticated from './middleware/Authenticated';
 import Guest from './middleware/Guest';
 
