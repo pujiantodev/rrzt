@@ -14,6 +14,14 @@ This template provides a minimal setup to get React working in Vite with HMR and
 - install dependencies with `pnpm install`
 - start the dev server with `pnpm dev`
 
+## Env Development
+
+Set your backend base URL in `.env` file.
+
+```
+VITE_BACKEND_BASE_URL="http://localhost:8000"
+```
+
 ## Structure Folder
 
 ```
